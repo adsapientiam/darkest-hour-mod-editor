@@ -1,0 +1,48 @@
+USED TECHS = [
+    * wxpython  # might be replaced with C# if better contender
+    * pathlib
+    * OS
+]
+
+VISUAL OVERLAY:
+* intro screen choice of mod 
+* Menu 
+    -- flag:country
+        - have modifier-pallette appear when country chosen
+    -- new file
+        - choose location for it to work
+EDITING FILES:
+* when changing inside editor, first the
+
+EVENTS & DECISIONS EDITOR:
+* preview of how event will look like or modification directly on window
+* Finding provinces by searching 
+* drag & drop nature or writing (without tedious command = {})
+    - each box a `command = {}` or `trigger = {}`
+* tags categories to choose from as user:
+    -- conditionals
+        - alliance
+    -- commands
+        - alliance
+        -
+* after clicking "new event", its content is divided in three; can hide entire event :
+    ------------# information part
+    <id = # autochoosen or self choosen but checked>
+    <name>
+    <chooseimg=none: choice of file from filepicker>
+    <desc=none>     
+    <startdate=none>
+        <offset=none>
+    <enddate=none>
+    ----------- 
+      # conditional for event apparation , content put inside `trigger = {}`
+    ----------
+      # ACTION_NAME | conditonal (`trigger={}`) | effect (a set of `command = {}`)
+
+MODIFYING COUNTRY: 
+    * flag
+    * name
+    * ai 
+    * "start condition" 
+    * ministers
+
